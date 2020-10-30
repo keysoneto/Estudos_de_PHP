@@ -51,3 +51,4 @@ class criptografia
 $des01 = new criptografia();
 $senhaOriginal = 'Texto #3';
 echo "A senha '$senhaOriginal' criptografada é :'" . $des01->criptoSenha($senhaOriginal) . "'";
+?>
